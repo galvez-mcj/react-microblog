@@ -73,11 +73,110 @@ body {
 .blog-list h2 {
   font-size: 22px;
   color: var(--text-color);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .blog-list p {
   color: var(--text-dim);
+}
+
+.blog-list a {
+  text-decoration: none;
+}
+
+/* Blog Details*/
+.blog-details h2{
+  font-size: 22px;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0px;
+  line-height: 1.5em;
+}
+
+.blog-details button {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.blog-details button:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+/* Create Blog Form */
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 22px;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 10px 0px;
+  border: 1px solid var(--text-dim);
+  border-radius: 8px;
+  display: block;
+}
+
+textarea {
+  height: 200px;
+}
+
+.create button {
+  background-color: var(--primary);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* Error Page */
+.error-page {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;  
+
+}
+
+.error-page h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.error-page p {
+  margin-bottom: 32px;
+}
+
+.error-page a {
+  text-decoration: none;
+}
+
+.error-page a:hover {
+  color: var(--primary);
 }
 
 /* error container*/
